@@ -1,0 +1,1457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Dubai</title>
+
+    <!--=================BootStrap-Links=================-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!--=================JQuery-Links=================-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!--=================BootStrap-Icons-Links=================-->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.2/font/bootstrap-icons.min.css"
+        integrity="sha512-D1liES3uvDpPrgk7vXR/hR/sukGn7EtDWEyvpdLsyalQYq6v6YUsTUJmku7B4rcuQ21rf0UTksw2i/2Pdjbd3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--=================Fonts-Links=================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Encode+Sans&family=Ubuntu+Mono&display=swap"
+        rel="stylesheet">
+    <!--=================Animate-On-Scroll(AOS)-Links=================-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--=================CSS-Links=================-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!--=================Header-Section=================-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+
+            <a class="navbar-brand ms-lg-5" href="#">
+                <img src="images/dubai-logo.png" alt="Logo" width="100" height="60">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse">
+                <span class="bi bi-list collapse-icon" onclick="openNav()"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#home">
+                            <h5>Home</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#about-dubai">
+                            <h5>About Dubai</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#explore-dubai">
+                            <h5>Explore Dubai</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#things-to-do">
+                            <h5>Things to do</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#plan-your-trip">
+                            <h5>Plan your trip</h5>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn bi bi-x" onclick="closeNav()"></a>
+                <div class="overlay-content">
+                    <a href="#home">Home</a>
+                    <a href="#about-dubai">About Dubai</a>
+                    <a href="#explore-dubai">Explore Dubai</a>
+                    <a href="#things-to-do">Things to do</a>
+                    <a href="#plan-your-trip">Plan your trip</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- =================Hero-Section=================  -->
+
+    <section class="hero-main" id="home">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="video-main" data-aos="fade-in">
+                        <video id="video" width="100%" controls>
+                            <source src="images/Home-Vedio.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-lg-2 col-md-0"></div>
+                    <div class="col-lg-8 col-md-12 d-flex justify-content-center align-items-center">
+                        <div class="vedio-content-main text-center text-white" data-aos="fade-up">
+                            <div class="vedio-content">
+                                <h1 data-aos="fade-up">WELCOME TO DUBAI</h1>
+                                <p data-aos="fade-up">Discover the beating heart of the United Arab Emirates, a city
+                                    that defies limits and continually shapes its destiny. From the gleaming Burj
+                                    Khalifa piercing the sky to the enchanting allure of the Palm Jumeirah's
+                                    archipelago, Dubai is a symphony of modernity, luxury, and cultural richness.
+                                </p>
+                                <button id="video-button" class="video-button" data-aos="fade-up">99+ ways to explore
+                                    Dubai</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-0"></div>
+                </div>
+            </div>
+    </section>
+    <!-- =================About-Dubai-Section=================  -->
+
+    <section class="about-main" id="about-dubai">
+        <div class="container">
+            <!-- -----------------Section-Main-Heading-----------------  -->
+            <div class="about-heading-main" data-aos="fade-left">
+                <h1 class="about-heading">About Dubai</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-11">
+                    <!-- -----------------Upper-Content-----------------  -->
+                    <div class="about-zoom-section" data-aos="fade-up">
+                        <div class="row">
+                            <!-- -----------------Zoom-Effect-----------------  -->
+                            <div class="col-lg-4">
+                                <div class="zoom-main">
+                                    <div class="about-zoom-main">
+                                        <div class="about-zoom">
+                                            <img src="images/about.jpg" width="100%" class="image-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -----------------Text-Content-----------------  -->
+                            <div class="col-lg-8">
+                                <div class="content-main mt-4">
+                                    <h3 data-aos="fade-up">Welcome to Dubai - where anything is possible. </h3>
+                                    <div class="about-text">
+                                        <p class="d-lg-block d-none" data-aos="fade-up">Once a small fishing village in
+                                            the Arabian Gulf,
+                                            Dubai shares the spotligh
+                                            with some of the most cosmopolitan cities in the world. One of the seven
+                                            emirates that make up the <span>United Arab Emirates</span>, the city is
+                                            home to more than 200 nationalities and offers an unforgettable experience
+                                            to all visitors.Whether it is by the banks of the Creek, or at the top of
+                                            the <span>Burj Khalifa</span>, the world’s tallest building, Dubai lives and
+                                            breathes a sense of possibility and innovation. And with an unparalleled
+                                            coastline, beautiful desert and magnificent
+                                            cityscapes, memories are just waiting to be made here. </p>
+                                        <p data-aos="fade-up">In the heart of the United Arab Emirates, Dubai stands as
+                                            a testament to
+                                            dreams realized and possibilities unlimited. From its humble beginnings as a
+                                            trading post to its current status as an international icon, Dubai has
+                                            always been a city with its gaze fixed on the future. </p>
+                                        <a href="https://www.visitdubai.com/en/explore-dubai/about-dubai"
+                                            target="_blank"><button class="about-btn px-3 py-2 "
+                                                data-aos="fade-up">Learn
+                                                More-</button></a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- =================Explore-Dubai-Section=================  -->
+
+    <section class="explore-main" id="explore-dubai">
+        <div class="container">
+            <!-- -----------------Section-Main-Heading-----------------  -->
+            <div class="explore-heading-main">
+                <h1 class="explore-heading common-heading" data-aos="fade-up">Explore Dubai <i
+                        class="bi bi-geo-alt"></i></h1>
+                <p data-aos="fade-up">Dubai is a city that needs to be seen to be believed. Find out all you need to <br
+                        class="d-lg-block d-none" />know about the place of endless possibilities. </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <h2 data-aos="fade-up">Your journey starts here</h2>
+                <p data-aos="fade-up">See how Dubai evolved into the modern destination it is today. </p>
+            </div>
+            <div class="row">
+                <!-- -----------------Explore-Visible-Cards-----------------  -->
+                <div class="explore-visible-cards">
+                    <div class="row mt-5">
+                        <!-- -----------------Section-Card-1-----------------  -->
+                        <div class="col-lg-3 col-md-6 g-5 d-flex justify-content-center align-items-center"
+                            data-aos="fade-in">
+                            <div class="card " style="width: 19rem; height: 28rem;">
+                                <img src="images/burj-khalifa.jpg" class="card-img-top" height="175px">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Buri Khalifa</h5>
+                                    <p class="card-text">Burj Khalifa is the world's tallest structure. With a total
+                                        height
+                                        of
+                                        829.8 m and more than 160 stories.The Burj Khalifa has been the tallest
+                                        structure
+                                        and
+                                        building in the world since its topping out in 2009.</p>
+                                    <a href="#https://www.visitdubai.com/en/places-to-visit/burj-khalifa"><button
+                                            class="px-3 py-2 rounded-3 align-baseline card-btn ">Learn More</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- -----------------Section-Card-2-----------------  -->
+                        <div class="col-lg-3 col-md-6 g-5 d-flex justify-content-center align-items-center"
+                            data-aos="fade-in">
+                            <div class="card " style="width: 19rem; height: 28rem;">
+                                <img src="images/burj-al-arab.jpg" class="card-img-top" height="175px">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Buri Al Arab</h5>
+                                    <p class="card-text">The Burj Al Arab is a luxury hotel in Dubai, United Arab
+                                        Emirates.Burj
+                                        Al Arab stands on an artificial island that is 280 m (920 ft) from Jumeirah
+                                        Beach
+                                        and is
+                                        connected to the mainland by a private curving bridge. </p>
+                                    <a href="#https://www.visitdubai.com/en/places-to-visit/burj-al-arab?DTCM-SN+%7C+Pakistan+%7C+Search+%7C+EN+%7C+Phrase+%7C+Pillars&gclid=Cj0KCQiA1rSsBhDHARIsANB4EJaK8--TPQ1OzRxvsxTh7eoO54KGO_YdiGYzxEvwVve88G9lbFddkBMaAt_MEALw_wcB&gclsrc=aw.ds"
+                                        class="btn "><button class="px-3 py-2 rounded-3 align-baseline card-btn ">Learn
+                                            More</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- -----------------Section-Card-3-----------------  -->
+                        <div class="col-lg-3 col-md-6 g-5 d-flex justify-content-center align-items-center"
+                            data-aos="fade-in">
+                            <div class="card " style="width: 19rem; height: 28rem;">
+                                <img src="images/underwater.webp" class="card-img-top" height="175px">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Dubai Aquarium</h5>
+                                    <p class="card-text">Dubai Aquarium and Underwater Zoo, contains more than 33,000
+                                        aquatic animals and the largest collection of sand tiger sharks anywhere. There
+                                        are
+                                        numerous ways for visitors to experience the main Aquarium tank.</p>
+                                    <a href="#https://www.visitdubai.com/en/places-to-visit/dubai-aquarium-and-underwater-zoo?DTCM-SN+%7C+Pakistan+%7C+Search+%7C+EN+%7C+Pillars&gclid=Cj0KCQiA1rSsBhDHARIsANB4EJYCSSQbKnUKkWnCb6Ujuz6shT6D2-gHrlPosqzcJlptg7GL4-evOIIaAt-eEALw_wcB&gclsrc=aw.ds"
+                                        class="btn"><button class="px-3 py-2 rounded-3 align-baseline card-btn ">Learn
+                                            More</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- -----------------Section-Card-4-----------------  -->
+                        <div class="col-lg-3 col-md-6 g-5 d-flex justify-content-center align-items-center"
+                            data-aos="fade-in">
+                            <div class="card " style="width: 19rem; height: 28rem;">
+                                <img src="images/future-meuseum.jpg" class="card-img-top" height="175px">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Museum of the Future </h5>
+                                    <p class="card-text">Museum of the Future is a landmark devoted to innovative and
+                                        futuristic ideologies.Located in the Financial District of Dubai, this museum is
+                                        a
+                                        torus-shaped building with windows in the form of a poem about the future.
+                                    </p>
+                                    <a href="#https://www.visitdubai.com/en/places-to-visit/museum-of-the-future?DTCM-SN+%7C+Pakistan+%7C+Search+%7C+EN+%7C+Pillars&gclid=Cj0KCQiA1rSsBhDHARIsANB4EJac2mP01vKaBwFfuIk4tz_Hk6w0GlVyWJ-fdR_YxUZLMa_MJDlp8uQaAu8yEALw_wcB&gclsrc=aw.ds"
+                                        class="btn"><button class="px-3 py-2 rounded-3 align-baseline card-btn">Learn
+                                            More</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- -----------------Explore-Hidden-Cards-----------------  -->
+                <div class="explore-hidden-cards">
+                    <div class="row mt-5">
+                        <!-- -----------------Section-Hidden-Card-1-----------------  -->
+                        <div class="col-lg-3 col-md-6 g-5 d-flex justify-content-center align-items-center">
+                            <div class="card  card-hidden hidden" style="width: 19rem; height: 28rem;">
+                                <img src="images/expo-2020.webp" class="card-img-top" height="175px">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Dubai Expo 2020</h5>
+                                    <p class="card-text">Inspiration found a new home at Expo 2020 Dubai over 182 days
+                                        of
+                                        collaboration, innovation and the marvels that humanity can accomplish together.
+                                        This
+                                        mega-fair proved to be an unmissable experience narrating the pivotal story of
+                                        things to
+                                        come.
+                                    </p>
+                                    <a href="#https://www.visitdubai.com/en/explore-dubai/expo?DTCM-SN+%7C+Pakistan+%7C+Search+%7C+EN+%7C+Pillars&gclid=Cj0KCQiA1rSsBhDHARIsANB4EJYIx_JA6Bc5mwMfgLLTf0UeN5ZQH49GYQ39RGXqEWa0SJCLPsrvdX4aAg9XEALw_wcB&gclsrc=aw.ds"
+                                        class="btn"><button class="px-3 py-2 rounded-3 align-baseline card-btn">Learn
+                                            More</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- -----------------Section-Hidden-Card-2-----------------  -->
+                        <div class="col-lg-3 col-md-6 g-5 d-flex justify-content-center align-items-center">
+                            <div class="card  card-hidden hidden" style="width: 19rem; height: 28rem;">
+                                <img src="images/dubai-frame.webp" class="card-img-top" height="175px">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Dubai Frame </h5>
+                                    <p class="card-text">The Dubai Frame an observatory, museum, and monument in Zabeel
+                                        Park,
+                                        Dubai.It holds the record for the largest frame in the world.The building mainly
+                                        serves
+                                        as an observatory, providing views of old Dubai in the north and newer parts in
+                                        the
+                                        south. </p>
+                                    <a href="#https://www.visitdubai.com/en/places-to-visit/dubai-frame?DTCM-SN+%7C+Pakistan+%7C+Search+%7C+EN+%7C+Phrase+%7C+Pillars&gclid=Cj0KCQiA1rSsBhDHARIsANB4EJZRYo7kLI3zuxTJo7nIJ2MGDUNzTncjdhAGbvigUJ3MH0d3ZOx2QfwaAkVjEALw_wcB&gclsrc=aw.ds"
+                                        class="btn"><button class="px-3 py-2 rounded-3 align-baseline card-btn">Learn
+                                            More</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- -----------------Section-Hidden-Card-3-----------------  -->
+                        <div class="col-lg-3 col-md-6 g-5 d-flex justify-content-center align-items-center">
+                            <div class="card  card-hidden hidden " style="width: 19rem; height: 28rem;">
+                                <img src="images/waterpark.jpg" class="card-img-top" height="175px">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Aquaventure Waterpark </h5>
+                                    <p class="card-text">For waterpark fans Aquaventure is an absolute
+                                        must-see Dubai attraction the largest waterpark in the world, it's packed with
+                                        105
+                                        different slides and rides including some of the highest and fastest in the
+                                        world.
+                                    </p>
+                                    <a href="#https://www.visitdubai.com/en/places-to-visit/aquaventure?DTCM-SN+%7C+Pakistan+%7C+Search+%7C+EN+%7C+Pillars&gclid=Cj0KCQiA1rSsBhDHARIsANB4EJYCpP5x3z6Y3QdPgMJAydPhyaKPi1IuwGGcD0mnq3UTQtVKC_JnhhwaAo--EALw_wcB&gclsrc=aw.ds"
+                                        class="btn"><button class="px-3 py-2 rounded-3 align-baseline card-btn">Learn
+                                            More</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- -----------------Section-Hidden-Card-4-----------------  -->
+                        <div class="col-lg-3 col-md-6 g-5 d-flex justify-content-center align-items-center">
+                            <div class="card  card-hidden hidden" style="width: 19rem; height: 28rem;">
+                                <img src="images/garden.jpg" class="card-img-top" height="175px">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Dubai Miracle Garden </h5>
+                                    <p class="card-text">A world of floral wonder awaits you at Dubai Miracle Garden,
+                                        the
+                                        world's largest natural flower garden. The 72,000sqm park has an impressive
+                                        line-up
+                                        of
+                                        famous buildings and structures completely transformed into colourful flower
+                                        exhibits.
+                                    </p>
+                                    <a href="#https://www.visitdubai.com/en/places-to-visit/miracle-garden?DTCM-SN+%7C+Pakistan+%7C+Search+%7C+EN+%7C+Phrase+%7C+Pillars&gclid=Cj0KCQiA1rSsBhDHARIsANB4EJZ1VHoCozkGw5KF7MrHny12wItXepAsI1VLW4cFgwGwHx3KFnB958gaAoNwEALw_wcB&gclsrc=aw.ds"
+                                        class="btn"><button class="px-3 py-2 rounded-3 align-baseline card-btn">Learn
+                                            More</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="cards-btn-main float-end">
+                <button id="show-more-btn" class="px-3 py-2 mx-3 mt-4 rounded-3 cards-btn">Show More</button>
+                <button id="show-less-btn" class="px-3 py-2 mx-3 mt-4 rounded-3 cards-btn"> Show Less</button>
+            </div>
+        </div>
+    </section>
+    <!-- =================Things-to-do-Section=================  -->
+
+    <section class="things-main" id="things-to-do">
+        <div class="container">
+            <!-- -----------------Section-Main-Heading-----------------  -->
+            <div class="things-heading-main">
+                <h1 class="things-heading common-heading" data-aos="fade-up">Find things to do</h1>
+            </div>
+        </div>
+        <div class="button-container">
+            <div class="container float-lg-end">
+                <button class="things-btn  all-btn px-3 py-2 rounded-3 mx-2" data-city="all">All</button>
+                <button class="things-btn px-2 py-2 rounded-3 mx-2" data-city="adventure">Adventure</button>
+                <button class="things-btn px-2 py-2 rounded-3 mx-2" data-city="arts">Arts & Culture</button>
+                <button class="things-btn px-2 py-2 rounded-3 mx-2" data-city="foods">Food & Drink</button>
+                <button class="things-btn px-2 py-2 rounded-3 mx-2" data-city="spas">Spas & Wellness</button>
+                <button class="things-btn px-2 py-2 rounded-3 mx-2" data-city="sights">Sights &
+                    Attractions</button>
+            </div>
+        </div>
+
+        <div class="cards-container">
+            <div class="container mt-5">
+                <div class="row">
+
+                    <!-- -----------------All-Cards-----------------  -->
+                    <div id="all" class="things-cards">
+                        <div class="row">
+                            <!-- -----------------All-Card-1-----------------  -->
+                            <div class="col-lg-4 g-5 d-flex justify-content-center align-items-center"
+                                data-aos="fade-up">
+                                <div class="heart-btn" style="width: 21rem;" id="card1">
+                                    <a href="https://www.visitdubai.com/en/places-to-visit/platinum-heritage">
+                                        <div class="zoom-main-2">
+                                            <div class="cars-zoom-main">
+                                                <div class="cards-zoom">
+                                                    <img src="images/platinum-heritage.jpg" height="225px"
+                                                        class="card-img-top rounded-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="up"><i class="bi bi-suit-heart"></i></button>
+                                    </a>
+                                    <div class="card-body">
+
+                                        <p class="card-text-1">Desert</p>
+                                        <a href="https://www.visitdubai.com/en/places-to-visit/platinum-heritage">
+                                            <h5 class="card-title">Platinum Heritage</h5>
+                                        </a>
+                                        <p class="card-text">Embark on an authentic desert<br /> adventure done in style
+                                        </p>
+                                        <div class="mt-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -----------------All-Card-2-----------------  -->
+                            <div class="col-lg-4 g-5 d-flex justify-content-center align-items-center"
+                                data-aos="fade-up">
+                                <div class="art-card heart-btn" style="width: 21rem;" id="card2">
+                                    <a href="https://www.visitdubai.com/en/places-to-visit/theatre-of-digital-art">
+                                        <div class="zoom-main-2">
+                                            <div class="cars-zoom-main">
+                                                <div class="cards-zoom">
+                                                    <img src="images/digital-art.jpg" height="225px"
+                                                        class="card-img-top rounded-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="up"><i class="bi bi-suit-heart"></i></button>
+                                    </a>
+                                    <div class="card-body">
+
+                                        <p class="card-text-1">GALLERIES & EXHIBITIONS </p>
+                                        <a href="https://www.visitdubai.com/en/places-to-visit/theatre-of-digital-art">
+                                            <h5 class="card-title">Theatre of Digital Art</h5>
+                                        </a>
+                                        <p class="card-text">See the works of celebrated artists<br /> come to life </p>
+                                        <div class="mt-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -----------------All-Card-3-----------------  -->
+                            <div class="col-lg-4 g-5 d-flex justify-content-center align-items-center"
+                                data-aos="fade-up">
+                                <div class="heart-btn" style="width: 21rem;" id="card1">
+                                    <a href="https://www.visitdubai.com/en/places-to-visit/monkey-bar">
+                                        <div class="zoom-main-2">
+                                            <div class="cars-zoom-main">
+                                                <div class="cards-zoom">
+                                                    <img src="images/monkey-bar.jpg" height="225px"
+                                                        class="card-img-top rounded-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="up"><i class="bi bi-suit-heart"></i></button>
+                                    </a>
+                                    <div class="card-body">
+
+                                        <p class="card-text-1">FOOD & DRINK </p>
+                                        <a href="https://www.visitdubai.com/en/places-to-visit/monkey-bar">
+                                            <h5 class="card-title">Monkey Bar</h5>
+                                        </a>
+                                        <p class="card-text">Enter a rooftop jungle with Latin<br /> American bites </p>
+                                        <div class="mt-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -----------------All-Card-4-----------------  -->
+                            <div class="col-lg-4 g-5 d-flex justify-content-center align-items-center"
+                                data-aos="fade-up">
+                                <div class="heart-btn" style="width: 21rem;" id="card1">
+                                    <a
+                                        href="https://www.visitdubai.com/en/places-to-visit/the-westin-dubai-mina-seyahi">
+                                        <div class="zoom-main-2">
+                                            <div class="cars-zoom-main">
+                                                <div class="cards-zoom">
+                                                    <img src="images/dubai-mina.webp" height="225px"
+                                                        class="card-img-top rounded-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="up"><i class="bi bi-suit-heart"></i></button>
+                                    </a>
+                                    <div class="card-body">
+
+                                        <p class="card-text-1">SPAS & WELLNESS </p>
+                                        <a
+                                            href="https://www.visitdubai.com/en/places-to-visit/the-westin-dubai-mina-seyahi">
+                                            <h5 class="card-title">The Westin Dubai Mina Seyahi</h5>
+                                        </a>
+                                        <p class="card-text">A neoclassical-style 5-star beach<br /> resort overlooking
+                                            the Arabian Gulf </p>
+                                        <div class="mt-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -----------------All-Card-5-----------------  -->
+                            <div class="col-lg-4 g-5 d-flex justify-content-center align-items-center"
+                                data-aos="fade-up">
+                                <div class="heart-btn" style="width: 21rem;" id="card1">
+                                    <a href="https://www.visitdubai.com/en/places-to-visit/the-viewing-point">
+                                        <div class="zoom-main-2">
+                                            <div class="cars-zoom-main">
+                                                <div class="cards-zoom">
+                                                    <img src="images/the-viewing-point.png" height="225px"
+                                                        class="card-img-top rounded-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="up"><i class="bi bi-suit-heart"></i></button>
+                                    </a>
+                                    <div class="card-body">
+
+                                        <p class="card-text-1">SIGHTS & ATTRACTIONS </p>
+                                        <a href="https://www.visitdubai.com/en/places-to-visit/the-viewing-point">
+                                            <h5 class="card-title">The Viewing Point</h5>
+                                        </a>
+                                        <p class="card-text">See panoramic views of Dubai Creek<br /> like never before
+                                        </p>
+                                        <div class="mt-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -----------------All-Card-6-----------------  -->
+                            <div class="col-lg-4 g-5 d-flex justify-content-center align-items-center"
+                                data-aos="fade-up">
+                                <div class="heart-btn" style="width: 21rem;" id="card1">
+                                    <a href="https://visitdubai.com/en/places-to-visit/the-view-at-the-palm">
+                                        <div class="zoom-main-2">
+                                            <div class="cars-zoom-main">
+                                                <div class="cards-zoom">
+                                                    <img src="images/palm-view.webp" height="225px"
+                                                        class="card-img-top rounded-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="up"><i class="bi bi-suit-heart"></i></button>
+                                    </a>
+                                    <div class="card-body">
+
+                                        <p class="card-text-1">SIGHTS & ATTRACTIONS </p>
+                                        <a href="https://visitdubai.com/en/places-to-visit/the-view-at-the-palm">
+                                            <h5 class="card-title">The View at The Palm</h5>
+                                        </a>
+                                        <p class="card-text">Visit a 360-degree observation deck at <br />Dubai’s iconic
+                                            Palm Jumeirah </p>
+                                        <div class="mt-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a
+                            href="https://www.visitdubai.com/en/places-to-visit?tags=Adventure%3B%2C%3BArts+%26+Culture%3B%2C%3BFood+%26+Drink%3B%2C%3BSpas+%26+Wellness%3B%2C%3BSights+%26+Attractions"><button
+                                class="see-more-btn">See More ></button></a>
+                    </div>
+                    <!-- ========================================================================================================= -->
+
+                    <!-- -----------------Adventure-Cards-----------------  -->
+                    <div id="adventure" class="things-cards">
+                        <div class="row">
+                            <!-- -----------------Adventure-Card-1-----------------  -->
+                            <div class="col-lg-4 g-5 d-flex justify-content-center align-items-center">
+                                <div class="heart-btn" style="width: 21rem;" id="card1">
+                                    <a href="https://www.visitdubai.com/en/places-to-visit/hatta-kayak">
+                                        <div class="zoom-main-2">
+                                            <div class="cars-zoom-main">
+                                                <div class="cards-zoom">
+                                                    <img src="images/hatta-kayak.avif" height="225px"
+                                                        class="card-img-top rounded-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="up"><i class="bi bi-suit-heart"></i></button>
+                                    </a>
+                                    <div class="card-body">
+
+                                        <p class="card-text-1">Adventure</p>
+                                        <a href="https://www.visitdubai.com/en/places-to-visit/hatta-kayak">
+                                            <h5 class="card-title">Hatta Kayak</h5>
+                                        </a>
+                                        <p class="card-text">Immerse yourself in a picturesque <br />setting in the
+                                            mountains
+                                        </p>
+                                        <div class="mt-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -----------------Adventure-Card-2-----------------  -->
+                            <div class="col-lg-4 g-5 d-flex justify-content-center align-items-center">
+                                <div class="heart-btn" style="width: 21rem;" id="card1">
+                                    <a href="https://www.visitdubai.com/en/places-to-visit/aquaventure">
+                                        <div class="zoom-main-2">
+                                            <div class="cars-zoom-main">
+                                                <div class="cards-zoom">
+                                                    <img src="images/aquaventure-waterpark.jpeg" height="225px"
+                                                        class="card-img-top rounded-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="up"><i class="bi bi-suit-heart"></i></button>
+                                    </a>
+                                    <div class="card-body">
+
+                                        <p class="card-text-1">Adventure/Entertainment </p>
+                                        <a href="https://www.visitdubai.com/en/places-to-visit/aquaventure">
+                                            <h5 class="card-title">Aquaventure Waterpark</h5>
+                                        </a>
+                                        <p class="card-text">Unlimited fun and adrenaline at<br /> Dubai's biggest
+                                            waterpark
+                                        </p>
+                                        <div class="mt-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -----------------Adventure-Card-3-----------------  -->
+                            <div class="col-lg-4 g-5 d-flex justify-content-center align-items-center">
+                                <div class="heart-btn" style="width: 21rem;" id="card1">
+                                    <a href="https://www.visitdubai.com/en/places-to-visit/platinum-heritage">
+                                        <div class="zoom-main-2">
+                                            <div class="cars-zoom-main">
+                                                <div class="cards-zoom">
+                                                    <img src="images/platinum-heritage.jpg" height="225px"
+                                                        class="card-img-top rounded-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="up"><i class="bi bi-suit-heart"></i></button>
+                                    </a>
+                                    <div class="card-body">
+
+                                        <p class="card-text-1">Desert</p>
+                                        <a href="https://www.visitdubai.com/en/places-to-visit/platinum-heritage">
+                                            <h5 class="card-title">Platinum Heritage</h5>
+                                        </a>
+                                        <p class="card-text">Embark on an authentic desert<br /> adventure done in style
+                                        </p>
+                                        <div class="mt-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a
+                            href="https://www.visitdubai.com/en/places-to-visit?tags=Adventure%3B%2C%3BArts+%26+Culture%3B%2C%3BFood+%26+Drink%3B%2C%3BSpas+%26+Wellness%3B%2C%3BSights+%26+Attractions"><button
+                                class="see-more-btn">See More ></button></a>
+                    </div>
+                    <!-- ========================================================================================================= -->
+
+                    <!-- -----------------Arts & Culture-Cards-----------------  -->
+                    <div id="arts" class="things-cards">
+                        <div class="row">
+                            <!-- -----------------Arts & Culture-Card-1-----------------  -->
+                            <div class="col-lg-4 g-5 d-flex justify-content-center align-items-center">
+                                <div class="art-card heart-btn" style="width: 21rem;" id="card2">
+                                    <a href="https://www.visitdubai.com/en/places-to-visit/theatre-of-digital-art">
+                                        <div class="zoom-main-2">
+                                            <div class="cars-zoom-main">
+                                                <div class="cards-zoom">
+                                                    <img src="images/digital-art.jpg" height="225px"
+                                                        class="card-img-top rounded-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="up"><i class="bi bi-suit-heart"></i></button>
+                                    </a>
+                                    <div class="card-body">
+
+                                        <p class="card-text-1">GALLERIES & EXHIBITIONS </p>
+                                        <a href="https://www.visitdubai.com/en/places-to-visit/theatre-of-digital-art">
+                                            <h5 class="card-title">Theatre of Digital Art</h5>
+                                        </a>
+                                        <p class="card-text">See the works of celebrated artists<br /> come to life </p>
+                                        <div class="mt-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -----------------Arts & Culture-Card-2-----------------  -->
+                            <div class="col-lg-4 g-5 d-flex justify-content-center align-items-center">
+                                <div class="art-card heart-btn" style="width: 21rem;" id="card2">
+                                    <a href="https://www.visitdubai.com/en/places-to-visit/wild-paint-house">
+                                        <div class="zoom-main-2">
+                                            <div class="cars-zoom-main">
+                                                <div class="cards-zoom">
+                                                    <img src="images/wild-paint-house.jpg" height="225px"
+                                                        class="card-img-top rounded-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="up"><i class="bi bi-suit-heart"></i></button>
+                                    </a>
+                                    <div class="card-body">
+
+                                        <p class="card-text-1">ARTS & CULTURE </p>
+                                        <a href="https://www.visitdubai.com/en/places-to-visit/wild-paint-house">
+                                            <h5 class="card-title">Wild Paint House</h5>
+                                        </a>
+                                        <p class="card-text">An all-ages art studio to unleash your<br /> creativity
+                                        </p>
+                                        <div class="mt-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -----------------Arts & Culture-Card-3-----------------  -->
+                            <div class="col-lg-4 g-5 d-flex justify-content-center align-items-center">
+                                <div class="art-card heart-btn" style="width: 21rem;" id="card2">
+                                    <a href="https://www.visitdubai.com/en/places-to-visit/al-seef-heritage-hotel">
+                                        <div class="zoom-main-2">
+                                            <div class="cars-zoom-main">
+                                                <div class="cards-zoom">
+                                                    <img src="images/naif-museum.avif" height="225px"
+                                                        class="card-img-top rounded-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="up"><i class="bi bi-suit-heart"></i></button>
+                                    </a>
+                                    <div class="card-body">
+
+                                        <p class="card-text-1">ARTS & CULTURE </p>
+                                        <a href="https://www.visitdubai.com/en/places-to-visit/al-seef-heritage-hotel">
+                                            <h5 class="card-title">Naif Museum</h5>
+                                        </a>
+                                        <p class="card-text">A former police headquarters and<br /> prison dating back
+                                            to
+                                            1939
+                                        </p>
+                                        <div class="mt-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a
+                            href="https://www.visitdubai.com/en/places-to-visit?tags=Adventure%3B%2C%3BArts+%26+Culture%3B%2C%3BFood+%26+Drink%3B%2C%3BSpas+%26+Wellness%3B%2C%3BSights+%26+Attractions"><button
+                                class="see-more-btn">See More ></button></a>
+                    </div>
+                    <!-- ========================================================================================================= -->
+
+                    <!-- -----------------Foods & Drinks-Cards-----------------  -->
+                    <div id="foods" class="things-cards">
+                        <div class="row">
+                            <!-- -----------------Foods & Drinks-Card-1-----------------  -->
+                            <div class="col-lg-4 g-5 d-flex justify-content-center align-items-center">
+                                <div class="heart-btn" style="width: 21rem;" id="card1">
+                                    <a href="https://www.visitdubai.com/en/places-to-visit/boom-battle-bar">
+                                        <div class="zoom-main-2">
+                                            <div class="cars-zoom-main">
+                                                <div class="cards-zoom">
+                                                    <img src="images/battle-bar.jpg" height="225px"
+                                                        class="card-img-top rounded-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="up"><i class="bi bi-suit-heart"></i></button>
+                                    </a>
+                                    <div class="card-body">
+
+                                        <p class="card-text-1">FOOD & DRINK </p>
+                                        <a href="https://www.visitdubai.com/en/places-to-visit/boom-battle-bar">
+                                            <h5 class="card-title">Boom Battle Bar</h5>
+                                        </a>
+                                        <p class="card-text">Try quirky games and go karaoke <br />crazy</p>
+                                        <div class="mt-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -----------------Foods & Drinks-Card-2-----------------  -->
+                            <div class="col-lg-4 g-5 d-flex justify-content-center align-items-center">
+                                <div class="heart-btn" style="width: 21rem;" id="card1">
+                                    <a href="https://www.visitdubai.com/en/places-to-visit/monkey-bar">
+                                        <div class="zoom-main-2">
+                                            <div class="cars-zoom-main">
+                                                <div class="cards-zoom">
+                                                    <img src="images/monkey-bar.jpg" height="225px"
+                                                        class="card-img-top rounded-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="up"><i class="bi bi-suit-heart"></i></button>
+                                    </a>
+                                    <div class="card-body">
+
+                                        <p class="card-text-1">FOOD & DRINK </p>
+                                        <a href="https://www.visitdubai.com/en/places-to-visit/monkey-bar">
+                                            <h5 class="card-title">Monkey Bar</h5>
+                                        </a>
+                                        <p class="card-text">Enter a rooftop jungle with Latin<br /> American bites </p>
+                                        <div class="mt-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -----------------Foods & Drinks-Card-3-----------------  -->
+                            <div class="col-lg-4 g-5 d-flex justify-content-center align-items-center">
+                                <div class="heart-btn" style="width: 21rem;" id="card1">
+                                    <a href="https://www.visitdubai.com/en/places-to-visit/electric-pawn-shop">
+                                        <div class="zoom-main-2">
+                                            <div class="cars-zoom-main">
+                                                <div class="cards-zoom">
+                                                    <img src="images/electric-shop.webp" height="225px"
+                                                        class="card-img-top rounded-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="up"><i class="bi bi-suit-heart"></i></button>
+                                    </a>
+                                    <div class="card-body">
+
+                                        <p class="card-text-1">FOOD & DRINK </p>
+                                        <a href="https://www.visitdubai.com/en/places-to-visit/electric-pawn-shop">
+                                            <h5 class="card-title">Electric Pawn Shop</h5>
+                                        </a>
+                                        <p class="card-text">Funky beats with an old-school <br />Chinatown vibe </p>
+                                        <div class="mt-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a
+                            href="https://www.visitdubai.com/en/places-to-visit?tags=Adventure%3B%2C%3BArts+%26+Culture%3B%2C%3BFood+%26+Drink%3B%2C%3BSpas+%26+Wellness%3B%2C%3BSights+%26+Attractions"><button
+                                class="see-more-btn">See More ></button></a>
+
+                    </div>
+                    <!-- ========================================================================================================= -->
+
+                    <!-- -----------------SPAS & WELLNESS-Cards-----------------  -->
+                    <div id="spas" class="things-cards">
+                        <div class="row">
+                            <!-- -----------------SPAS & WELLNESS-Card-1-----------------  -->
+                            <div class="col-lg-4 g-5 d-flex justify-content-center align-items-center">
+                                <div class="heart-btn" style="width: 21rem;" id="card1">
+                                    <a href="https://www.visitdubai.com/en/places-to-visit/sensasia-urban-spa">
+                                        <div class="zoom-main-2">
+                                            <div class="cars-zoom-main">
+                                                <div class="cards-zoom">
+                                                    <img src="images/sens-asian-urban-spa.jpg" height="225px"
+                                                        class="card-img-top rounded-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="up"><i class="bi bi-suit-heart"></i></button>
+                                    </a>
+                                    <div class="card-body">
+
+                                        <p class="card-text-1">SPAS & WELLNESS </p>
+                                        <a href="https://www.visitdubai.com/en/places-to-visit/sensasia-urban-spa">
+                                            <h5 class="card-title">SensAsia Urban Spa</h5>
+                                        </a>
+                                        <p class="card-text">Revel in relaxation with a truly perfect<br /> East meets
+                                            West experience </p>
+                                        <div class="mt-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -----------------SPAS & WELLNESS-Card-2-----------------  -->
+                            <div class="col-lg-4 g-5 d-flex justify-content-center align-items-center">
+                                <div class="heart-btn" style="width: 21rem;" id="card1">
+                                    <a
+                                        href="https://www.visitdubai.com/en/places-to-visit/the-westin-dubai-mina-seyahi">
+                                        <div class="zoom-main-2">
+                                            <div class="cars-zoom-main">
+                                                <div class="cards-zoom">
+                                                    <img src="images/dubai-mina.webp" height="225px"
+                                                        class="card-img-top rounded-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="up"><i class="bi bi-suit-heart"></i></button>
+                                    </a>
+                                    <div class="card-body">
+
+                                        <p class="card-text-1">SPAS & WELLNESS </p>
+                                        <a
+                                            href="https://www.visitdubai.com/en/places-to-visit/the-westin-dubai-mina-seyahi">
+                                            <h5 class="card-title">The Westin Dubai Mina Seyahi</h5>
+                                        </a>
+                                        <p class="card-text">A neoclassical-style 5-star beach<br /> resort overlooking
+                                            the Arabian Gulf </p>
+                                        <div class="mt-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -----------------SPAS & WELLNESS-Card-3-----------------  -->
+                            <div class="col-lg-4 g-5 d-flex justify-content-center align-items-center">
+                                <div class="heart-btn" style="width: 21rem;" id="card1">
+                                    <a href="https://www.visitdubai.com/en/places-to-visit/spa-intercontinental">
+                                        <div class="zoom-main-2">
+                                            <div class="cars-zoom-main">
+                                                <div class="cards-zoom">
+                                                    <img src="images/intercontinental.png" height="225px"
+                                                        class="card-img-top rounded-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="up"><i class="bi bi-suit-heart"></i></button>
+                                    </a>
+                                    <div class="card-body">
+
+                                        <p class="card-text-1">SPAS & WELLNESS </p>
+                                        <a href="https://www.visitdubai.com/en/places-to-visit/spa-intercontinental">
+                                            <h5 class="card-title">Spa InterContinental</h5>
+                                        </a>
+                                        <p class="card-text">Arabian-inspired spa with treatments<br /> for the whole
+                                            body </p>
+                                        <div class="mt-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a
+                            href="https://www.visitdubai.com/en/places-to-visit?tags=Adventure%3B%2C%3BArts+%26+Culture%3B%2C%3BFood+%26+Drink%3B%2C%3BSpas+%26+Wellness%3B%2C%3BSights+%26+Attractions"><button
+                                class="see-more-btn">See More ></button></a>
+
+                    </div>
+                    <!-- ========================================================================================================= -->
+
+                    <!-- -----------------SIGHTS & ATTRACTIONS-Cards-----------------  -->
+                    <div id="sights" class="things-cards">
+                        <div class="row">
+                            <!-- -----------------SIGHTS & ATTRACTIONS-Card-1-----------------  -->
+                            <div
+                                class="col-lg-4 col-md-6 col-sm-4  g-5 d-flex justify-content-center align-items-center">
+                                <div class="heart-btn" style="width: 21rem;" id="card1">
+                                    <a href="https://www.visitdubai.com/en/places-to-visit/the-viewing-point">
+                                        <div class="zoom-main-2">
+                                            <div class="cars-zoom-main">
+                                                <div class="cards-zoom">
+                                                    <img src="images/the-viewing-point.png" height="225px"
+                                                        class="card-img-top rounded-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="up"><i class="bi bi-suit-heart"></i></button>
+                                    </a>
+                                    <div class="card-body">
+
+                                        <p class="card-text-1">SIGHTS & ATTRACTIONS </p>
+                                        <a href="https://www.visitdubai.com/en/places-to-visit/the-viewing-point">
+                                            <h5 class="card-title">The Viewing Point</h5>
+                                        </a>
+                                        <p class="card-text">See panoramic views of Dubai Creek<br /> like never before
+                                        </p>
+                                        <div class="mt-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -----------------SIGHTS & ATTRACTIONS-Card-2-----------------  -->
+                            <div
+                                class="col-lg-4 col-md-6 col-sm-4  g-5 d-flex justify-content-center align-items-center">
+                                <div class="heart-btn" style="width: 21rem;" id="card1">
+                                    <a href="https://visitdubai.com/en/places-to-visit/the-view-at-the-palm">
+                                        <div class="zoom-main-2">
+                                            <div class="cars-zoom-main">
+                                                <div class="cards-zoom">
+                                                    <img src="images/palm-view.webp" height="225px"
+                                                        class="card-img-top rounded-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="up"><i class="bi bi-suit-heart"></i></button>
+                                    </a>
+                                    <div class="card-body">
+
+                                        <p class="card-text-1">SIGHTS & ATTRACTIONS </p>
+                                        <a href="https://visitdubai.com/en/places-to-visit/the-view-at-the-palm">
+                                            <h5 class="card-title">The View at The Palm</h5>
+                                        </a>
+                                        <p class="card-text">Visit a 360-degree observation deck at <br />Dubai’s iconic
+                                            Palm Jumeirah </p>
+                                        <div class="mt-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -----------------SIGHTS & ATTRACTIONS-Card-3-----------------  -->
+                            <div class="col-lg-4 col-md-6 g-5 d-flex justify-content-center align-items-center">
+                                <div class="heart-btn" style="width: 21rem;" id="card1">
+                                    <a href="https://www.visitdubai.com/en/places-to-visit/the-walk-at-jbr">
+                                        <div class="zoom-main-2">
+                                            <div class="cars-zoom-main">
+                                                <div class="cards-zoom">
+                                                    <img src="images/The-Walk-at-Jumeirah-Beach.jpg" height="225px"
+                                                        class="card-img-top rounded-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="up"><i class="bi bi-suit-heart"></i></button>
+                                    </a>
+                                    <div class="card-body">
+
+                                        <p class="card-text-1">SIGHTS & ATTRACTIONS</p>
+                                        <a href="https://www.visitdubai.com/en/places-to-visit/the-walk-at-jbr">
+                                            <h5 class="card-title">The Walk at Jumeirah Beach Residence</h5>
+                                        </a>
+                                        <p class="card-text">A vibrant promenade with shops,<br /> restaurants and cafés
+                                        </p>
+                                        <div class="mt-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a
+                            href="https://www.visitdubai.com/en/places-to-visit?tags=Adventure%3B%2C%3BArts+%26+Culture%3B%2C%3BFood+%26+Drink%3B%2C%3BSpas+%26+Wellness%3B%2C%3BSights+%26+Attractions"><button
+                                class="see-more-btn">See More ></button></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- =================Plan-your-Trip-Section=================  -->
+
+    <section class="plan-your-trip-main" id="plan-your-trip">
+        <div class="container">
+            <!-- -----------------Section-Main-Heading-----------------  -->
+            <div class="plan-heading-main">
+                <h1 class="plan-heading common-heading" data-aos="fade-up">Plan Your Trip</h1>
+                <p data-aos="fade-up">Get started on your Dubai holiday with these helpful tips and tools. </p>
+            </div>
+            <div class="row mt-5">
+                <h2 data-aos="fade-up">Start planning </h2>
+                <p data-aos="fade-up">Find a range of essential information – from basic customs to hotels,<br />
+                    restaurants, public
+                    transport and discounts. </p>
+            </div>
+        </div>
+
+        <div class="trip-container mt-5">
+
+            <div class="container-fluid mt-3" data-aos="fade-in">
+                <!-- -----------------Plan-Trip-Card-1-----------------  -->
+                <div class="trip-card mx-2">
+                    <div class="card" style="width: 21rem; height: 425px;">
+                        <img src="images/plan-trip-card2-img.webp" class="card-img-top" />
+                        <div class="card-body">
+                            <a href="https://www.visitdubai.com/en/plan-your-trip/visa-information">
+                                <h5 class="card-title">Visa information</h5>
+                            </a>
+                            <p class="card-text">Essential information before <br />you plan your trip to Dubai.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- -----------------Plan-Trip-Card-2-----------------  -->
+                <div class="trip-card mx-2">
+                    <div class="card" style="width: 21rem; height: 425px;">
+                        <img src="images/plan-trip-card3-img.webp" class="card-img-top" />
+                        <div class="card-body">
+                            <a href="https://www.visitdubai.com/en/plan-your-trip/getting-to-and-around-dubai">
+                                <h5 class="card-title">Public Transport</h5>
+                            </a>
+                            <p class="card-text">Learn how to arrive in Dubai<br /> and the best ways to get around </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- -----------------Plan-Trip-Card-3-----------------  -->
+                <div class="trip-card mx-2">
+                    <div class="card" style="width: 21rem; height: 425px;">
+                        <img src="images/plan-trip-card4-img.avif" class="card-img-top" />
+                        <div class="card-body">
+                            <a href="https://www.visitdubai.com/en/plan-your-trip/places-to-stay">
+                                <h5 class="card-title">Places to stay</h5>
+                            </a>
+                            <p class="card-text">Explore an incredible range of <br />accommodation options </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- -----------------Plan-Trip-Card-4-----------------  -->
+                <div class="trip-card mx-2">
+                    <div class="card" style="width: 21rem; height: 425px;">
+                        <img src="images/plan-trip-card1-img.avif" class="card-img-top" />
+                        <div class="card-body">
+                            <a href="https://www.visitdubai.com/en/explore-dubai/about-dubai#About%20Dubai">
+                                <h5 class="card-title">About Dubai</h5>
+                            </a>
+                            <p class="card-text">See how Dubai transformed into<br /> a sun-soaked modern metropolis
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="trip-scroll-btn mt-4 d-flex justify-content-center align-items-center d-md-block d-lg-none">
+            Scroll Cards to Right for More<i class="bi bi-arrow-right-short"></i>
+        </div>
+
+        <a href="https://www.visitdubai.com/en/plan-your-trip/visa-information"><button class="trip-btn">Learn More
+                ></button></a>
+
+    </section>
+    <!-- =================Apps-Section=================  -->
+
+    <section class="apps-main">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="apps-contant-main">
+                        <h3>Stay updated </h3>
+                        <p>Get the latest updates on things to do in Dubai </p>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Your email address">
+                        <fieldset disabled>
+                            <button type="submit" class="btn btn-secondary mt-3 px-3 py-2">Submit</button>
+                        </fieldset>
+                        <p>All information provided will be handled in accordance with our <a
+                                href="https://www.visitdubai.com/en/privacy-notice">Privacy Notice</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="apps-links text-center">
+                        <h3>Download our apps</h3>
+                        <div class="apps-imgs">
+                            <img src="images/apps-logo-1.svg" class="mt-3">
+                            <br />
+                            <a href="https://apps.apple.com/us/app/visit-dubai/id925400191?ls=1">Get Visit Dubai</a>
+                            <br />
+                            <img src="images/apps-logo-2.svg" class="mt-3">
+                            <br />
+                            <a href="https://apps.apple.com/us/app/dubai-calendar/id501018460?ls=1">Get Dubai
+                                Calendar</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- =================Footer-Section=================  -->
+
+    <footer class="footer-main">
+        <div class="container pt-5 text-white">
+            <div class="row">
+
+                <div class="col-lg-3">
+                    <div class="logo-main">
+                        <a href="index.html"><img src="images/footer-logo.webp"></a>
+                    </div>
+
+                    <div class="social-icons-main mt-3">
+                        <a target="_blank" href="https://www.facebook.com/visitdubai/"><i
+                                class="bi bi-facebook"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/visit.dubai/"><i
+                                class="bi bi-instagram"></i></a>
+                        <a target="_blank" href="https://www.youtube.com/visitdubai"><i><img
+                                    src="images/tripadvisor-white.svg" width="10%"></i></a>
+                        <a target="_blank" href="https://twitter.com/visitdubai"><i class="bi bi-twitter-x"></i></a>
+                        <a target="_blank"
+                            href="https://www.tripadvisor.com/Tourism-g295424-Dubai_Emirate_of_Dubai-Vacations.html"><i
+                                class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-9">
+                    <div class="footer-list-main">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-12">
+                                <ul>
+                                    <li>
+                                        <h5>Popular links</h5>
+                                    </li>
+                                    <a href="https://www.visitdubai.com/en/explore-dubai">
+                                        <li>Explore Dubai</li>
+                                    </a>
+                                    <a href="https://www.visitdubai.com/en/things-to-do">
+                                        <li>Things To Do</li>
+                                    </a>
+                                    <a href="https://www.visitdubai.com/en/whats-on">
+                                        <li>What's On </li>
+                                    </a>
+                                    <a href="https://www.visitdubai.com/en/articles">
+                                        <li>Articles</li>
+                                    </a>
+                                    <a href="https://www.visitdubai.com/en/places-to-visit">
+                                        <li>Places To Visit</li>
+                                    </a>
+                                </ul>
+
+
+                                <div class="dropdown">
+                                    <button class="dropdown-btn" onclick="toggleDropdown()">
+                                        <h5>Popular links<i class="ms-2 bi bi-chevron-down drop-icon"></i></h5>
+                                    </button>
+                                    <div class="dropdown-content" id="dropdownContent">
+                                        <a href="https://www.visitdubai.com/en/explore-dubai"> Explore Dubai </a>
+                                        <a href="https://www.visitdubai.com/en/things-to-do">Things To Do</a>
+                                        <a href="https://www.visitdubai.com/en/whats-on">What's On</a>
+                                        <a href="https://www.visitdubai.com/en/articles">Articles</a>
+                                        <a href="https://www.visitdubai.com/en/places-to-visit">Places To Visit</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-3 col-md-12">
+                                <ul>
+                                    <li>
+                                        <h5>Helpful Information</h5>
+                                    </li>
+                                    <a href="https://www.visitdubai.com/en/plan-your-trip">
+                                        <li>Plan Your Trip</li>
+                                    </a>
+                                    <a href="https://www.visitdubai.com/en/plan-your-trip/visa-information">
+                                        <li>Visa Guide</li>
+                                    </a>
+                                    <a href="https://www.visitdubai.com/en/contact-us">
+                                        <li>Contact Us</li>
+                                    </a>
+                                    <a href="https://www.visitdubai.com/en/faqs">
+                                        <li>Frequently Asked Questions</li>
+                                    </a>
+                                    <a href="https://www.visitdubai.com/en/coronavirus-advisory">
+                                        <li>COVID-19-Advisory</li>
+                                    </a>
+                                </ul>
+
+
+                                <div class="dropdown">
+                                    <button class="dropdown-btn" onclick="toggleDropdown()">
+                                        <h5>Helpful Information<i class="ms-2 bi bi-chevron-down drop-icon"></i></h5>
+                                    </button>
+                                    <div class="dropdown-content" id="dropdownContent">
+                                        <a href="https://www.visitdubai.com/en/plan-your-trip">Plan Your Trip</a>
+                                        <a href="https://www.visitdubai.com/en/plan-your-trip/visa-information">Visa
+                                            Guide</a>
+                                        <a href="https://www.visitdubai.com/en/contact-us">Contact Us</a>
+                                        <a href="https://www.visitdubai.com/en/faqs">Frequently Asked Questions</a>
+                                        <a
+                                            href="https://www.visitdubai.com/en/coronavirus-advisory">COVID-19-Advisory</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-3 col-md-12">
+                                <ul>
+                                    <li>
+                                        <h5>Related Sites</h5>
+                                    </li>
+                                    <a href="https://www.visitdubai.com/en/invest-in-dubai/">
+                                        <li>Invest in Dubai</li>
+                                    </a>
+                                    <a href="https://www.dubaitourism.gov.ae/">
+                                        <li>Department of Economy and Tourisum</li>
+                                    </a>
+                                </ul>
+
+
+                                <div class="dropdown">
+                                    <button class="dropdown-btn" onclick="toggleDropdown()">
+                                        <h5>Related Sites<i class="ms-2 bi bi-chevron-down drop-icon"></i></h5>
+                                    </button>
+                                    <div class="dropdown-content" id="dropdownContent">
+                                        <a href="https://www.visitdubai.com/en/invest-in-dubai/">Invest in Dubai</a>
+                                        <a href="https://www.dubaitourism.gov.ae/">Department
+                                            of Economy and Tourisum</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-3 col-md-12">
+                                <ul>
+                                    <li>
+                                        <h5>Useful Links</h5>
+                                    </li>
+                                    <a
+                                        href="https://04.gov.ae/case-generate?entity=a7f2f61a-bc06-ec11-b6e5-0022486fc780&lang=en">
+                                        <li>Submit a Complaint</li>
+                                    </a>
+                                    <a
+                                        href="https://04.gov.ae/case-generate?entity=a7f2f61a-bc06-ec11-b6e5-0022486fc780&lang=en">
+                                        <li>Make a suggestion</li>
+                                    </a>
+                                </ul>
+
+
+                                <div class="dropdown">
+                                    <button class="dropdown-btn" onclick="toggleDropdown()">
+                                        <h5>Useful Links<i class="ms-2 bi bi-chevron-down drop-icon"></i></h5>
+                                    </button>
+                                    <div class="dropdown-content" id="dropdownContent">
+                                        <a
+                                            href="https://04.gov.ae/case-generate?entity=a7f2f61a-bc06-ec11-b6e5-0022486fc780&lang=en">Submit
+                                            a Complaint</a>
+                                        <a
+                                            href="https://04.gov.ae/case-generate?entity=a7f2f61a-bc06-ec11-b6e5-0022486fc780&lang=en">Make
+                                            a suggestion</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--=================JavaScript-Links=================-->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
